@@ -9,8 +9,8 @@
 WiFiClient espClient;
 PubSubClient client(espClient);
 
-const char* ssid     = "El Medico-2,4GHz"; // Change this to your WiFi SSID
-const char* password = "Gcqssdupfmyxco5"; // Change this to your WiFi password
+const char* ssid     = "WIFI HERE"; // Change this to your WiFi SSID
+const char* password = "PASSWD HERE"; // Change this to your WiFi password
 long lastReconnectAttempt = 0;
 
 void setup() {
